@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# 📱 HealthSync App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+App móvil de monitoreo remoto de pacientes crónicos y acompañamiento deportivo. Simula la sincronización con un dispositivo BLE y muestra datos de pasos diarios junto con consejos de salud.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Tecnologías
 
-   ```bash
-   npm install
-   ```
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- TypeScript
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ✅ Funcionalidades
 
-In the output, you'll find options to open the app in a
+- Pantalla principal con:
+  - Nombre del usuario
+  - Número simulado de pasos
+  - Botón para sincronizar con un dispositivo BLE
+- Sincronización simulada con animación y feedback
+- Segunda pantalla con consejos de salud
+- Navegación entre vistas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📦 Instalación y ejecución
 
-When you're ready, run:
+1. Clona el repositorio:
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/Cignacio-dev/HealthSyncApp.git
+cd HealthSyncApp
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Instala las dependencias:
 
-## Learn more
+npm install
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Inicia la app con Expo:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+npx expo start
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. Escanea el QR con Expo Go o usa un emulador.
